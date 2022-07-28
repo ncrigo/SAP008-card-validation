@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background: rgb(239, 239, 243);
+}
+
+
+
+#logoHeader {
+    background: rgb(218, 218, 236);
+    padding: 2rem 0;
+    text-align: center;
+    font-family: 'potta one';
+    font-weight: 100;
+    color: rgb(71, 28, 71);
+    font-size: 3rem;
+}
+
+#line {
+    width: auto;
+    border: 1px solid rgb(71, 28, 71);
+}
+
+
+
+main {
+    margin: 4rem 4rem;
+}
+
+.title {
+    margin-bottom: 1.5rem;
+    color: rgb(94, 31, 94);
+}
+
+#toRight {
+    display: flex;
+}
+
+#delivery {
+    margin-left: 10rem;
+    margin-bottom: 4rem;
+}
+
+#time {
+    color: blueviolet; 
+    font-size: 1.2rem;
+}
+
+#price {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+
+
+#card {
+    width: 25rem;
+    height: 17rem;
+    padding: 1.5rem;
+    box-shadow: 0rem 1rem 2rem rgba(0, 0, 0, 0.3);
+    border-radius: 1rem;
+    background: rgb(221, 236, 154);
+    font-size: 0.9rem;
+    color: black;
+}
+
+#cardHeader {
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+#chipImg {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 1rem;
+}
+
+#logoBank {
+    color: rgb(24, 23, 23);
+    font-size: 1.4rem;
+    text-shadow: 0 2px 2px rgb(223, 219, 16);
+    margin-right: 1.2rem;
+}
+
+#cardData {
+    margin-left: 1rem;
+}
+
+.expiry-name {
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+}
+
+
+
+#numberInput {
+    color: black;
+    opacity: 0.9;
+    font-weight: normal;
+    width: 20rem;
+    height: 1.5rem;
+    font-size: 1.2rem;
+    padding-left: 0.4rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.2rem;
+    border: none;
+    border-radius: 0.25rem;
+}
+
+#expiryInput {
+    color: black;
+    opacity: 0.9;
+    font-weight: normal;
+    width: 4.3rem;
+    height: 1.5rem;
+    font-size: 0.9rem;
+    padding-left: 0.4rem;
+    padding-top: 0.2rem;
+    border: none;
+    border-radius: 0.25rem;
+}
+
+#nameInput {
+    color: black;
+    opacity: 0.9;
+    font-weight: normal;
+    width: 20rem;
+    height: 1.5rem;
+    font-size: 0.9rem;
+    padding-left: 0.4rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    border: none;
+    border-radius: 0.25rem;
+    text-transform: uppercase;
+}
+
+
+#button {
+    color: white;
+    background-color: rgb(71, 28, 71);
+    border: 0;
+    padding: 1rem 1rem;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    font-weight: normal;
+    margin-top: 5rem;
+}
+
+
+
+#footer {
+    font-family: 'potta one';
+    font-weight: normal;
+    padding: 4rem 0 2rem;
+    color: #363f5f;
+    opacity: 0.6;
+    margin-top: 4rem;
+}
