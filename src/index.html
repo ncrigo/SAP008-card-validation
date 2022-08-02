@@ -36,8 +36,12 @@
           <label>Brasil</label>
         </div>
 
+        <div>
+          <img id="imag" src="img/livro.png">
+        </div>
+
         <div id="delivery">
-          <label id="time"><b>Entrega prevista 22 a 28 de Julho de 2022</b></label><br>
+          <label id="time"><b>Frete grátis com entrega até 05/08/2022</b></label><br>
           <label><b>As 5 linguagens do amor</b></label><br>
           <label>por Chapman, Gary</label><br>
           <label id="price">R$ 30,99</label><br>
@@ -56,10 +60,10 @@
         <h2 id="logoBank">LabBank</h2>
       </div>
 
-      <div id="cardData">
+      <form id="cardData">
         <div>
           <label id="numberInputLabel">Número do cartão</label><br>
-          <input type="text" id="numberInput" maxlength="16" placeholder="xxxx xxxx xxxx xxxx">
+          <input type="text" id="numberInput" maxlength="16" placeholder="xxxxXXXXxxxxXXXX">
         </div>
 
         <div class="expiry-name">
@@ -68,10 +72,10 @@
         </div>
 
         <div class="expiry-name">
-          <label>Nome do(a) titular do cartão</label><br>
+          <label>Nome impresso no cartão</label><br>
           <input type="text" id="nameInput" placeholder="DIGITE AQUI">
         </div>
-      </div>
+      </form>
     </section>
 
     <button id="button" type="button">Finalizar compra</button>

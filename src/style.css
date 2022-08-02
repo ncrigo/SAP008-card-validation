@@ -41,15 +41,24 @@ main {
 
 #toRight {
     display: flex;
+    margin-bottom: 1rem;
+}
+
+#imag {
+    margin-left: 10rem;
+    width: 5.8rem;
+    height: 9rem;
+    border-radius: 0.15rem;
+    box-shadow: 0.25rem 0.25rem 0.25rem rgba(0, 0, 0, 0.3);
 }
 
 #delivery {
-    margin-left: 10rem;
+    margin-left: 1rem;
     margin-bottom: 4rem;
 }
 
 #time {
-    color: blueviolet; 
+    color: blueviolet;
     font-size: 1.2rem;
 }
 
@@ -146,6 +155,7 @@ main {
 }
 
 
+
 #button {
     color: white;
     background-color: rgb(71, 28, 71);
@@ -165,5 +175,5 @@ main {
     padding: 4rem 0 2rem;
     color: #363f5f;
     opacity: 0.6;
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
