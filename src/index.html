@@ -2,86 +2,75 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8" />
   <title>Validação de cartão de crédito</title>
   <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
 
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet" />
 
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
-    rel="stylesheet">
+    rel="stylesheet" />
 </head>
 
 <body>
   <header>
-    <h1 id="logoHeader">leiaBooks</h1>
-    <div id="line"></div>
+    <h1 class="logo-header">leiaBooks</h1>
+    <div class="line"></div>
   </header>
 
   <main>
-    <section id="data">
-      <div class="title">
-        <h2>Resumo do pedido:</h2>
-      </div>
+    <section class="data">
+      <h2 class="title">Resumo do pedido:</h2>
 
-      <div id="toRight">
-        <div id="address">
-          <label><b>Endereço de entrega:</b></label><br>
-          <label>Nathalia Rigo Alves</label><br>
-          <label>Rua dos livros, 722,</label><br>
-          <label>Mundo da Leitura, BR 12345-678</label><br>
+      <div class="to-right">
+        <div class="address">
+          <label><b>Endereço de entrega:</b></label><br />
+          <label>Nathalia Rigo Alves</label><br />
+          <label>Rua dos livros, 722,</label><br />
+          <label>Mundo da Leitura, BR 12345-678</label><br />
           <label>Brasil</label>
         </div>
 
-        <div>
-          <img id="imag" alt="Capa do livro As 5 Linguagens do Amor" src="img/livro.png">
-        </div>
+        <img class="imag" alt="Capa do livro As 5 Linguagens do Amor" src="img/livro.png" />
 
-        <div id="delivery">
-          <label id="time"><b>Frete grátis com entrega até 05/08/2022</b></label><br>
-          <label><b>As 5 linguagens do amor</b></label><br>
-          <label>por Chapman, Gary</label><br>
-          <label id="price">R$ 30,99</label><br>
-          <label>Quantidade: 1</label><br>
+        <div class="delivery">
+          <label class="time"><b>Frete grátis com entrega até 05/08/2022</b></label><br />
+          <label><b>As 5 linguagens do amor</b></label><br />
+          <label>por Chapman, Gary</label><br />
+          <label class="price">R$ 30,99</label><br />
+          <label>Quantidade: 1</label><br />
         </div>
       </div>
 
-      <div>
-        <h3 class="title">Preencha com os dados do seu cartão para pagamento:</h3>
-      </div>
+      <h3 class="title">
+        Preencha com os dados do seu cartão para pagamento:
+      </h3>
     </section>
 
-    <section id="card">
-      <div id="cardHeader">
-        <img id="chipImg" alt="Modelo de um chip de cartão" src="img/chip.png">
-        <h2 id="logoBank">LabBank</h2>
+    <section class="card">
+      <div class="card-header">
+        <img class="chip-img" alt="Modelo de um chip de cartão" src="img/chip.png" />
+        <h2 class="logo-bank">LabBank</h2>
       </div>
 
-      <form id="cardData">
-        <div>
-          <label id="numberInputLabel">Número do cartão</label><br>
-          <input type="text" id="numberInput" maxlength="16" placeholder="xxxxXXXXxxxxXXXX">
-        </div>
+      <form class="card-data">
+        <label id="numberInputLabel">Número do cartão</label><br />
+        <input type="text" id="numberInput" maxlength="16" placeholder="xxxxXXXXxxxxXXXX" />
 
-        <div class="expiry-name">
-          <label>Válido até</label><br>
-          <input type="text" id="expiryInput" maxlength="5" placeholder="xx / xx">
-        </div>
+        <label class="expiry-name">Válido até</label><br />
+        <input type="text" id="expiryInput" maxlength="5" placeholder="xx / xx" />
 
-        <div class="expiry-name">
-          <label>Nome impresso no cartão</label><br>
-          <input type="text" id="nameInput" placeholder="DIGITE AQUI">
-        </div>
+        <br><label class="expiry-name">Nome impresso no cartão</label><br />
+        <input type="text" id="nameInput" placeholder="DIGITE AQUI" />
+
+        <button id="button" type="button">Finalizar compra</button>
       </form>
     </section>
 
-    <button id="button" type="button">Finalizar compra</button>
-
-    <footer id="footer">leiaBooks</footer>
-
+    <footer class="footer">leiaBooks</footer>
   </main>
   <script src="index.js" type="module"></script>
 </body>

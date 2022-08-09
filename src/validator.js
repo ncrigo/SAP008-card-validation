@@ -1,8 +1,6 @@
 const validator = {
-
   isValid(creditCardNumber) {
-
-    let resultado = creditCardNumber.split('').map(Number);
+    let resultado = creditCardNumber.split("").map(Number);
 
     resultado = resultado.reverse();
 
@@ -10,7 +8,7 @@ const validator = {
     while (element < resultado.length) {
       resultado[element] = resultado[element] * 2;
       if (resultado[element] > 9) {
-        resultado[element] = resultado[element] - 9
+        resultado[element] = resultado[element] - 9;
       }
       element = element + 2;
     }
@@ -20,24 +18,17 @@ const validator = {
       sum = sum + resultado[element];
     }
 
-    if (sum % 10 === 0) {
-      return true;
-    }
-    else {
-      return false;
-    }
+    return sum % 10 === 0;
   },
 
   maskify(creditCardNumber) {
-    let cardLength = creditCardNumber.length;
+    const cardLength = creditCardNumber.length;
     let mask = creditCardNumber.substring(0, cardLength - 4);
-    mask = mask.replace(/./g, '#');
+    mask = mask.replace(/./g, "#");
 
-    let text = creditCardNumber.substring(cardLength - 4);
-    let newCard = mask + text;
-    return newCard;
-  }
+    const text = creditCardNumber.substring(cardLength - 4);
+    return mask + text;
+  },
 };
 
 export default validator;
-
